@@ -4,7 +4,6 @@ Console.Write("Введите число: ");
 int number = int.Parse(Console.ReadLine());
 
 if (number < 100) Console.Write($"В числе {number} третьей цифры нет");
-else if (number <= 999) Console.Write($"Третья цифра – {number % 10}");
 else
 {
     while (number > 999)
